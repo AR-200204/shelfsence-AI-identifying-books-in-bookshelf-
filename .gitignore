@@ -1,0 +1,33 @@
+# Python environments
+.venv/
+.venv_paddle/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Datasets
+dataset/
+
+# Trained models
+*.pt
+*.onnx
+
+# Generated outputs
+outputs/
+runs/
+
+# OCR cache
+.paddlex/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
